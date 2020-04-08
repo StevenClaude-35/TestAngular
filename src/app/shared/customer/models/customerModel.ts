@@ -3,6 +3,7 @@ export class CustomerModel{
     firstName:string;
     lastName:string;
     address:string;
+    fullName:string;
     mobileNo:number;
     email;
     
