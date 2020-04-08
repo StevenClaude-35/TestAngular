@@ -50,9 +50,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/font-awesome/css/font-awesome.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -145,6 +150,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "miniSuper"
+    }
+  },
+  "defaultProject": "miniSuper",
+  "cli": {
+    "analytics": "723296fc-1607-4147-b118-a5b77380fdc4"
+  }
 }
